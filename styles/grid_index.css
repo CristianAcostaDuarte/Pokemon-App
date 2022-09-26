@@ -28,13 +28,8 @@
 
 .Container-Dex {
     grid-area: Dex;
-    background-color: red;
-
 }
 
-.Container-Dex img{
-    width: 10%;
-}
 
 .Container-Menu {
     grid-area: Nav;
@@ -43,10 +38,7 @@
 
 .Container-Foot {
     grid-area: Footer;
-    background-color: pink;
 }
 
-.Container-Foot img{
-    width: 10%;
-}
+
 

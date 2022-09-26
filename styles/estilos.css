@@ -78,6 +78,8 @@ body {
     opacity: .8;
 }
 
+/* PARTE DEL MOSTRADOR DE FOTOS */
+
 .Container-Photo {
     margin: auto;
     position: relative;
@@ -202,5 +204,51 @@ body {
     max-height: 100%;
     max-width: 100%;
     border-radius: 10px;
+}
+
+/* SIGUE LA PARTE DE LA DEX */
+
+.Container-Dex{
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+
+.dex{
+    width: 48%;
+    margin: auto;
+    position: relative;
+    background: rgba(198, 26, 26, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dex .Texto{
+    margin: auto;
+    width: 30%;
+    color: white;
+
+}
+
+.dex .Texto2{
+    margin: auto;
+    width: 70%;
+    color: white;
+
+}
+
+.dex .Texto img{
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
 }
 
