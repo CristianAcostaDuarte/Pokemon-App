@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.GridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header      header       header"
+                         "Activities  Activities   Sidebar"
+                         "Activities  Activities   Sidebar"
+                         "Footer      Footer       Footer";
+    gap:10px;
+}
+
+.Container-Header{
+    background-color: black;
+    grid-area: header;
+}
+
+.Container-Header  img{
+    width: 10%;
+}
+
+.Container-Header .Text{
+    width: 80%;
+    color: white;
+
+}
+
+.Container-Activities {
+    grid-area: Activities;
+    background-color: blue;
+}
+
+.Container-Activities img{
+    width: 10%;
+}
+
+
+.Container-Menu {
+    grid-area: Sidebar;
+    background-color: yellow;
+
+}
+
+.Container-Foot {
+    grid-area: Footer;
+    background-color: pink;
+}
+
+.Container-Foot img{
+    width: 10%;
+}

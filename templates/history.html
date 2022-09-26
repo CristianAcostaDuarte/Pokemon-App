@@ -1,81 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/estilos.css">
+    <link rel="stylesheet" href="../styles/grid_history.css">
     <title>Document</title>
 </head>
+
 <body>
 
-    <header>
+    <div class="GridContainer">
+
         <div class="Container-Header">
-            <div class="Logo"> 
-                <img src="../images/backgrounds/Pokeball.png" alt="Logo">
+            <header>
 
-            </div>
+                <div class="Logo">
+                    <img src="../images/backgrounds/Pokeball.png" alt="Logo">
 
-            <div class="Text"> 
-                <h1 class="Title">Pokemon Adventures </h1>
-                <h2 class="Subtitle">Alola Region</h2>
-            </div>
+                </div>
 
+                <div class="Text">
+                    <h1 class="Title">Pokemon Adventures </h1>
+                    <h2 class="Subtitle">Alola Region</h2>
+                </div>
+            </header>
         </div>
-    </header>
 
-    <section class="Container-history">
-        <div class="legendaries">
 
-            <div class="Lunala">
-                <img src="../images/characters/Lunala.png" alt="Lunala">
-                <h2>Lunala</h2>
-                <p> Desde tiempos inmemoriales, a Lunala se le ha considerado heraldo de la Luna,
-                    y a menudo se han referido a este Pokémon como “la criatura que evoca a la Luna”.
-                    Lunala absorbe luz constantemente y la convierte en energía. Con sus alas extendidas
-                    para absorber la luz que hay a su alrededor y un brillo comparable al de la Luna creciente,
-                    este Pokémon recuerda a un impresionante cielo nocturno.
-                </p>
+        <div class="Container-history">
+            <div class="legendaries">
+
+                <div class="Lunala">
+                    <img src="../images/characters/Lunala.png" alt="Lunala">
+                    <h2>Lunala</h2>
+                    <p> Desde tiempos inmemoriales, a Lunala se le ha considerado heraldo de la Luna,
+                        y a menudo se han referido a este Pokémon como “la criatura que evoca a la Luna”.
+                        Lunala absorbe luz constantemente y la convierte en energía. Con sus alas extendidas
+                        para absorber la luz que hay a su alrededor y un brillo comparable al de la Luna creciente,
+                        este Pokémon recuerda a un impresionante cielo nocturno.
+                    </p>
+                </div>
+
+                <div class="Solgaleo">
+                    <img src="../images/characters/Solgaleo.png" alt="Solgaleo">
+                    <h2>Solgaleo</h2>
+                    <p> Desde tiempos inmemoriales, a Solgaleo se le ha considerado heraldo del Sol. De hecho,
+                        se le suele describir como “la criatura que se nutre del Sol”. Su cuerpo contiene una
+                        cantidad ingente de energía y brilla con luz propia cuando está activo. Su melena ondea
+                        al viento, lo que le confiere un considerable parecido con el sol.
+                    </p>
+                </div>
+
             </div>
-
-            <div class="Solgaleo">
-                <img src="../images/characters/Solgaleo.png" alt="Solgaleo">
-                <h2>Solgaleo</h2>
-                <p> Desde tiempos inmemoriales, a Solgaleo se le ha considerado heraldo del Sol. De hecho,
-                     se le suele describir como “la criatura que se nutre del Sol”. Su cuerpo contiene una
-                      cantidad ingente de energía y brilla con luz propia cuando está activo. Su melena ondea
-                       al viento, lo que le confiere un considerable parecido con el sol.
-                </p>
-            </div>
-
         </div>
-    </section>
 
-    <aside>
+
         <div class="Container-Menu">
-            <nav class="menu">
-				<a href="#" id="btn-acerca-de">Historia</a>
-				<a href="#" id="btn-menu">Personajes</a>
-				<a href="#" id="btn-galeria">Actividades</a>
-				<a href="#" id="btn-ubicacion">Ubicacion</a>
-                <a href="#" id="btn-ubicacion">Referencias</a>
-			</nav>            
+            <aside>
+                <nav class="menu">
+                    <a href="../templates/history.html" id="btn-historia">Historia</a>
+                    <a href="../templates/characters.html" id="btn-personajes">Personajes</a>
+                    <a href="../templates/activities.html" id="btn-actividades">Actividades</a>
+                    <a href="../templates/ubication.html" id="btn-ubicacion">Ubicacion</a>
+                    <a href="../templates/history.html" id="btn-referencias">Referencias</a>
+                </nav>
+            </aside>
+
         </div>
-    </aside>
 
 
-    <footer>
         <div class="Container-Foot">
-            <div class="Logo"> 
-                <img src="../images/backgrounds/pokelogo.png" alt="logo"> 
-            </div>
+            <footer>
+                <div class="Logo">
+                    <img src="../images/backgrounds/pokelogo.png" alt="logo">
+                </div>
 
-            <div class="Text">
-                <h2>Pokemon Company LTDA</h2>
-                <p>Todos los derechos para Nintendo - Pokemon Company</p>
-            </div>           
+                <div class="Text">
+                    <h2>Pokemon Company LTDA</h2>
+                    <p>Todos los derechos para Nintendo - Pokemon Company</p>
+                </div>
+            </footer>
         </div>
-    </footer>
+    </div>
 
-    
+
 </body>
+
 </html>

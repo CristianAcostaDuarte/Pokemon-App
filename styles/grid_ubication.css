@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.GridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header     header     header"
+                         "Nav        Nav        Nav"
+                         "Intro      Intro      Intro"
+                         "Islands    Islands    Islands"
+                         "Footer     Footer     Footer";
+    gap:10px;
+}
+
+.Container-Header{
+    background-color: black;
+    grid-area: header;
+}
+
+.Container-Header  img{
+    width: 10%;
+}
+
+.Container-Header .Text{
+    width: 80%;
+    color: white;
+
+}
+
+.Container-Alola {
+    grid-area: Intro;
+    background-color: blue;
+}
+
+.Container-Alola img{
+    width: 10%;
+}
+
+.Container-islands {
+    grid-area: Islands;
+    background-color: red;
+
+}
+
+.Container-islands img{
+    width: 10%;
+}
+
+.Container-Menu {
+    grid-area: Nav;
+    display: flex;
+    flex-direction: row;
+   
+    background-color: yellow;
+
+}
+
+.Container-Foot {
+    grid-area: Footer;
+    background-color: pink;
+}
+
+.Container-Foot img{
+    width: 10%;
+}

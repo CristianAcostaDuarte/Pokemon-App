@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.GridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "Nav    Nav    Nav"
+                         "Photo  Photo  Photo"
+                         "Dex    Dex    Dex"
+                         "Footer Footer Footer";
+    gap:10px;
+}
+
+.Container-Header{
+    grid-area: header;
+}
+
+
+
+.Container-Photo {
+    grid-area: Photo;
+}
+
+
+
+.Container-Dex {
+    grid-area: Dex;
+    background-color: red;
+
+}
+
+.Container-Dex img{
+    width: 10%;
+}
+
+.Container-Menu {
+    grid-area: Nav;
+
+}
+
+.Container-Foot {
+    grid-area: Footer;
+    background-color: pink;
+}
+
+.Container-Foot img{
+    width: 10%;
+}
+
