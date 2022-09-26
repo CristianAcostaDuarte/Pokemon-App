@@ -83,7 +83,7 @@ body {
 .Container-Photo {
     margin: auto;
     position: relative;
-    background: rgba(255, 255, 255, .7);
+    background: rgba(255, 255, 255, .85);
     padding: 20px;
     width: 80%;
     height: auto;
@@ -252,3 +252,38 @@ body {
     display: block;
 }
 
+/* SIGUE LA PARTE DEL FOOTER */
+
+.Container-Foot{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.Container-Foot .Logo{
+    width: 50%;
+    height: 30%;
+}
+
+.Container-Foot .Logo img{
+    margin-left: auto;
+    max-width: 20%;
+    max-height: 20%;
+    display: block;
+
+}
+
+
+
+.Container-Foot .Text{
+    margin: auto;
+    width: 80%;
+    height: 20%;
+    color: white;
+
+}
