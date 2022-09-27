@@ -15,53 +15,30 @@
 }
 
 .Container-Header{
-    background-color: black;
     grid-area: header;
 }
 
-.Container-Header  img{
-    width: 10%;
-}
 
-.Container-Header .Text{
-    width: 80%;
-    color: white;
-
-}
 
 .Container-starters {
     grid-area: starters;
-    background-color: blue;
+
 }
 
-.Container-starters img{
-    width: 10%;
-}
+
 
 .Container-friends {
     grid-area: friends;
-    background-color: red;
+ 
 
 }
 
-.Container-friends img{
-    width: 10%;
-}
 
 .Container-Menu {
     grid-area: Nav;
-    display: flex;
-    flex-direction: row;
-   
-    background-color: yellow;
-
 }
 
 .Container-Foot {
     grid-area: Footer;
-    background-color: pink;
 }
 
-.Container-Foot img{
-    width: 10%;
-}
