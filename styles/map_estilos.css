@@ -15,7 +15,7 @@
     grid-template-columns: 1fr;
     grid-template-areas: "header"
                          "Nav"
-                         "references"
+                         "map"
                          "Footer";
     gap:10px;
 }
@@ -27,7 +27,7 @@
 
 
 .Container-references {
-    grid-area: references;
+    grid-area: map;
 }
 
 
@@ -125,7 +125,7 @@ body {
 
 
 
-.Container-references{
+.Container-map{
     margin: auto;
     width: 70%;
    
@@ -140,7 +140,7 @@ body {
 }
 
 
-.References{
+.map{
     background: rgba(255, 255, 255, .7);
     width:100%;
     display: flex;
@@ -154,15 +154,10 @@ body {
 
 
 
-.References .Texto{
-    padding: 40px;
-    color:black;
-    font-size: 20px;
-}
 
 
 
-.References .Texto img{
+.map .container img{
     max-width: 100%;
     margin: auto;
     padding: 40px;
