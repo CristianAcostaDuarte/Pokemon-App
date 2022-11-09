@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.GridContainer {
+    margin: auto;
+    width: 90%;
+    max-width: 1500px;
+}
+
+body {
+    font-family: 'Bebas Neue';
+    background: #000 url('../images/backgrounds/Alola_Background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* COLOCANDO EL HEADER Y EL NAVBAR */
+
+.Container-Header {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Container-Header .Logo {
+    width: 60px;
+    height: 60px;
+}
+
+.Container-Header .Logo img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+
+.Container-Header .Texto {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container-Menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.boton {
+    color: #fff;
+    background: black;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 25px;
+    padding: 7px 10px;
+    border-radius: 20px;
+
+}
+
+.boton:hover {
+    opacity: .8;
+}
+
+/* colocando las activities */
+
+.Container-Activities{
+    margin: auto;
+    width: 80%;
+    gap: 20px;
+}
+
+
+.Container-Activities .Title{
+    text-align: center;
+    background-color: #000;
+    color:whitesmoke ;
+    font-size: 20px;
+}
+
+.Container-Activities .subsection{
+
+    display: flex;
+    flex-direction: row;
+    background: rgba(255, 255, 255, .5);
+
+}
+
+.Container-Activities .subsection .Photo{
+   padding: 20px;
+   width: 500px;
+    
+   
+}
+
+.Container-Activities .subsection .Text{
+    margin: auto;
+    padding: 10px;
+    width: 500px;
+
+    
+ }
+ 
+
+.Container-Activities .subsection .Photo img{
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+/* SIGUE LA PARTE DEL FOOTER */
+
+.Container-Foot{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.Container-Foot .Logo{
+    width: 50%;
+    height: 30%;
+}
+
+.Container-Foot .Logo img{
+    margin-left: auto;
+    max-width: 20%;
+    max-height: 20%;
+    display: block;
+
+}
+
+
+
+.Container-Foot .Text{
+    margin: auto;
+    width: 80%;
+    height: 20%;
+    color: white;
+
+}
+
+

@@ -8,7 +8,7 @@
     grid-template-columns: 1fr;
     grid-template-areas: "header"
                          "Nav"
-                         "legendary"
+                         "references"
                          "Footer";
     gap:10px;
 }
@@ -19,8 +19,8 @@
 
 
 
-.Container-history {
-    grid-area: legendary;
+.Container-references {
+    grid-area: references;
 }
 
 
