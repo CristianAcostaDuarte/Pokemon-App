@@ -6,6 +6,49 @@
     box-sizing: border-box;
 }
 
+/* colocando la estructura de esta pagina */
+
+.GridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "Nav    Nav    Nav"
+                         "Photo  Photo  Photo"
+                         "Dex    Dex    Dex"
+                         "Footer Footer Footer";
+    gap:10px;
+}
+
+.Container-Header{
+    grid-area: header;
+}
+
+
+
+.Container-Photo {
+    grid-area: Photo;
+}
+
+
+
+.Container-Dex {
+    grid-area: Dex;
+}
+
+
+.Container-Menu {
+    grid-area: Nav;
+
+}
+
+.Container-Foot {
+    grid-area: Footer;
+}
+
+
+
+
+
 .GridContainer {
     margin: auto;
     width: 90%;

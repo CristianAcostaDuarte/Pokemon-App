@@ -7,6 +7,43 @@
     box-sizing: border-box;
 }
 
+/* colocando la estructura de esta pagina */
+
+
+.GridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header"
+                         "Nav"
+                         "references"
+                         "Footer";
+    gap:10px;
+}
+
+.Container-Header{
+    grid-area: header;
+}
+
+
+
+.Container-references {
+    grid-area: references;
+}
+
+
+
+.Container-Menu {
+    grid-area: Nav;
+
+}
+
+.Container-Foot {
+    grid-area: Footer;
+   
+}
+
+
+
 .GridContainer {
     margin: auto;
     width: 90%;

@@ -7,6 +7,49 @@
     box-sizing: border-box;
 }
 
+/* colocando la estructura de esta pagina */
+ 
+.GridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header     header     header"
+                         "Nav        Nav        Nav"
+                         "starters   starters   starters"
+                         "friends    friends    friends"
+                         "Footer     Footer     Footer";
+    gap:10px;
+}
+
+.Container-Header{
+    grid-area: header;
+}
+
+
+
+.Container-starters {
+    grid-area: starters;
+
+}
+
+
+
+.Container-friends {
+    grid-area: friends;
+ 
+
+}
+
+
+.Container-Menu {
+    grid-area: Nav;
+}
+
+.Container-Foot {
+    grid-area: Footer;
+}
+
+
+
 .GridContainer {
     margin: auto;
     width: 90%;

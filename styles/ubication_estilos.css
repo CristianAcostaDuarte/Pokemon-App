@@ -6,6 +6,52 @@
     box-sizing: border-box;
 }
 
+/* colocando la estructura de esta pagina */
+
+
+.GridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header     header     header"
+                         "Nav        Nav        Nav"
+                         "Intro      Intro      Intro"
+                         "Islands    Islands    Islands"
+                         "Footer     Footer     Footer";
+    gap:10px;
+}
+
+.Container-Header{
+    
+    grid-area: header;
+}
+
+
+.Container-Alola {
+    grid-area: Intro;
+   
+}
+
+
+
+.Container-islands {
+    grid-area: Islands;
+    
+
+}
+
+
+
+.Container-Menu {
+    grid-area: Nav;
+
+}
+
+.Container-Foot {
+    grid-area: Footer;
+}
+
+
+
 .GridContainer {
     margin: auto;
     width: 90%;

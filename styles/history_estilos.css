@@ -7,6 +7,44 @@
     box-sizing: border-box;
 }
 
+/* colocando la estructura de esta pagina */
+
+
+.GridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "header"
+                         "Nav"
+                         "legendary"
+                         "Footer";
+    gap:10px;
+}
+
+.Container-Header{
+    grid-area: header;
+}
+
+
+
+.Container-history {
+    grid-area: legendary;
+}
+
+
+
+.Container-Menu {
+    grid-area: Nav;
+
+}
+
+.Container-Foot {
+    grid-area: Footer;
+   
+}
+
+
+
+
 .GridContainer {
     margin: auto;
     width: 90%;
@@ -100,6 +138,7 @@ body {
     display: flex;
     flex-direction: column;
     gap:40px;
+
     
 
 }
