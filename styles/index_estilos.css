@@ -1,0 +1,333 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* colocando la estructura de esta pagina */
+
+.GridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "Nav    Nav    Nav"
+                         "Photo  Photo  Photo"
+                         "Dex    Dex    Dex"
+                         "Footer Footer Footer";
+    gap:10px;
+}
+
+.Container-Header{
+    grid-area: header;
+}
+
+
+
+.Container-Photo {
+    grid-area: Photo;
+}
+
+
+
+.Container-Dex {
+    grid-area: Dex;
+}
+
+
+.Container-Menu {
+    grid-area: Nav;
+
+}
+
+.Container-Foot {
+    grid-area: Footer;
+}
+
+
+
+
+
+.GridContainer {
+    margin: auto;
+    width: 90%;
+    max-width: 1500px;
+}
+
+body {
+    font-family: 'Bebas Neue';
+    background: #000 url('../images/backgrounds/Alola_Background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Container-Header {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Container-Header .Logo {
+    width: 60px;
+    height: 60px;
+}
+
+.Container-Header .Logo img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+
+.Container-Header .Texto {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container-Menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.boton {
+    color: #fff;
+    background: black;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 25px;
+    padding: 7px 10px;
+    border-radius: 20px;
+
+}
+
+.boton:hover {
+    opacity: .8;
+}
+
+/* PARTE DEL MOSTRADOR DE FOTOS */
+
+.Container-Photo {
+    margin: auto;
+    position: relative;
+    background: rgba(255, 255, 255, .85);
+    padding: 20px;
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    display: none;
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* 5 columns side by side */
+.column {
+    float: left;
+    width: 20%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+.sub-container {
+    display: flex;
+}
+
+
+
+.sub-container .Text {
+    padding: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sub-container .Text h2 {
+    font-size: 70px;
+
+
+}
+
+.sub-container .Text p {
+    padding: 20px;
+    font-size: 20px;
+
+}
+
+.img-container {
+    width: 60%;
+    height: 60%;
+    
+}
+
+.sub-container img {
+    width: auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* SIGUE LA PARTE DE LA DEX */
+
+.Container-Dex{
+    margin: auto;
+    position: relative;
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+
+
+.dex{
+    width: 48%;
+    margin: auto;
+    position: relative;
+    background: rgba(198, 26, 26, 0.9);
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.dex .Texto{
+    margin: auto;
+    width: 30%;
+    color: white;
+
+}
+
+.dex .Texto2{
+    margin: auto;
+    width: 70%;
+    color: white;
+
+}
+
+.dex .Texto img{
+    max-width: 80%;
+    max-height: 80%;
+    display: block;
+}
+
+/* SIGUE LA PARTE DEL FOOTER */
+
+.Container-Foot{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.Container-Foot .Logo{
+    width: 50%;
+    height: 30%;
+}
+
+.Container-Foot .Logo img{
+    margin-left: auto;
+    max-width: 20%;
+    max-height: 20%;
+    display: block;
+
+}
+
+
+
+.Container-Foot .Text{
+    margin: auto;
+    width: 80%;
+    height: 20%;
+    color: white;
+
+}
+

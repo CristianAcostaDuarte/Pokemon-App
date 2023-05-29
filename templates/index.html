@@ -1,138 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/index_estilos.css">
+
+
     <title>Document</title>
 </head>
+
 <body>
-    <header>
+
+    <div class="GridContainer">
+
         <div class="Container-Header">
-            <div class="Logo"> 
-                <img src="" alt="">
 
+
+            <div class="Logo">
+                <img src="../images/backgrounds/Pokeball.png" alt="Logo">
             </div>
 
-            <div class="Text"> 
-                <h1 class="Title">Pokemon Adventures </h1>
-                <h2 class="Subtitle">Alola Region</h2>
+            <div class="Texto">
+                <h1>Pokemon Adventures in Alola Region </h1>
             </div>
 
         </div>
-    </header>
 
-    <section class="Container-Photo">
 
-        <div class="subsection">
 
-            <div class="Photo">
-                <img src="" alt="">
-            </div>
-
-            <div class="Text">
-                <h2> History </h2>
-                <p> About the history</p>
-            </div>
-            
-        </div>
-
-        <div class="subsection">
-
-            <div class="Photo">
-                <img src="" alt="">
-            </div>
-
-            <div class="Text">
-                <h2> Characters </h2>
-                <p> About the characetrs</p>
-            </div>
-            
-        </div>
-        
-        <div class="subsection">
-
-            <div class="Photo">
-                <img src="" alt="">
-            </div>
-
-            <div class="Text">
-                <h2> Activities </h2>
-                <p> About the Activities</p>
-            </div>
-            
-        </div>
-
-        <div class="subsection">
-
-            <div class="Photo">
-                <img src="" alt="">
-            </div>
-
-            <div class="Text">
-                <h2> Places </h2>
-                <p> About the Places</p>
-            </div>
-            
-        </div>
-
-        <div class="subsection">
-
-            <div class="Photo">
-                <img src="" alt="">
-            </div>
-
-            <div class="Text">
-                <h2> References </h2>
-                <p> About the references</p>
-            </div>
-            
-        </div>
-        
-    </section>
-
-    <section class="Container-Dex">
-
-        <div class="dex">
-            <img src="" alt="">
-            <h3> #Pokedex entry</h3>
-            <p>Pokedex description</p>
-        </div>
-
-        <div class="dex">
-            <img src="" alt="">
-            <h3> #Pokedex entry</h3>
-            <p>Pokedex description</p>
-        </div>
-
-    </section>
-  
-    <aside>
         <div class="Container-Menu">
+
             <nav class="menu">
-				<a href="#" id="btn-acerca-de">History</a>
-				<a href="#" id="btn-menu">Charcaters</a>
-				<a href="#" id="btn-galeria">Activities</a>
-				<a href="#" id="btn-ubicacion">Places</a>
-                <a href="#" id="btn-ubicacion">References</a>
-			</nav>            
+                <a href="../templates/index.html" class="boton" id="btn-Inicio">Inicio</a>
+                <a href="../templates/history.html" class="boton" id="btn-historia">Historia</a>
+                <a href="../templates/characters.html" class="boton" id="btn-personajes">Personajes</a>
+                <a href="../templates/activities.html" class="boton" id="btn-actividades">Actividades</a>
+                <a href="../templates/ubication.html" class="boton" id="btn-ubicacion">Ubicacion</a>
+                <a href="../templates/references.html" class="boton" id="btn-referencias">Referencias</a>
+                <a href="../templates/map.html" class="boton" id="btn-mapa">Mapa</a>
+            </nav>
+
         </div>
-    </aside>
+
+        <div class="Container-Photo">
+
+            <div class="mySlides">
+                <div class="numbertext">1 / 5</div>
+
+                <div class="sub-container">
+
+                    <div class="img-container">
+                        <img src="../images/backgrounds/Alola_map.jpg" alt="Mapa de Alola" >
+                    </div>
 
 
-    <footer>
-        <div class="Container-Foot">
-            <div class="Logo"> 
-                <img src="" alt=""> 
+                    <div class="Text">
+                        <h2> Historia </h2>
+                        <p> Se trata de un destino turístico bastante popular en el mundo Pokémon que atrae a muchos
+                            visitantes, que suelen hospedarse en algunos de sus hoteles.
+                        </p>
+                    </div>
+                </div>
+
             </div>
 
+            <div class="mySlides">
+                <div class="numbertext">2 / 5</div>
+
+                <div class="sub-container">
+
+                    <div class="img-container">
+                        <img src="../images/backgrounds/Alola_friends.png" alt="Personajes" >
+                    </div>
+                    
+
+
+                    <div class="Text">
+                        <h2> Personajes </h2>
+                        <p> Durante tu aventura en la region de Alola encontraras a muchos amigos para divertirte,
+                            escoge un
+                            pokemon para inciar tu
+                            aventura y afronta nuevos retos para convertirte en el campeon de la region.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">3 / 5</div>
+
+                <div class="sub-container">
+                    <div class="img-container">
+                        <img src="../images/activities/pokemon_contest.png" alt="actividades" >
+                    </div>
+                    
+
+
+                    <div class="Text">
+                        <h2> Actividades </h2>
+                        <p> La region de Alola cuenta con muchas actividades en las cuales tu y tus pokemon podran
+                            trabajar
+                            juntos
+                            y pasar un rato agradable a la orilla de las extensas playas de la region.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">4 / 5</div>
+
+                <div class="sub-container">
+
+                    <div class="img-container">
+                        <img src="../images/cities/Akala_Island.jpg" alt="Ubicacion" >
+                    </div>
+
+
+                    <div class="Text">
+                        <h2> Ubicacion </h2>
+                        <p> Se trata de un archipiélago compuesto por cuatro islas naturales: Melemele, Akala, Ula-Ula,
+                            y
+                            Poni,
+                            cada isla tiene caracteristicas unicas en base a la cultura y los tipos de pokemon que
+                            habitan
+                            en ellas.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="mySlides">
+                <div class="numbertext">5 / 5</div>
+                <div class="sub-container">
+
+                    <div class="img-container">
+                        <img src="" alt="">
+                    </div>
+                    
+
+
+                    <div class="Text">
+                        <h2> References </h2>
+                        <p> About the references</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+        </div>
+
+
+        <div class="Container-Dex">
+
+            <div class="dex">
+                <div class="Texto">
+                    <h3> Chansey N.º113 </h3>
+                    <img src="../images/pokedex/dex_1.png" alt="Chansey"> 
+
+                </div>
+                
+
+                <div class="Texto2">
+                    <p>Este Pokémon solía ser lento de reflejos, pero ha desarrollado una gran
+                        velocidad para evitar que le roben sus preciados huevos.
+                    </p>
+                </div>
+
+    
+            </div>
+    
+            <div class="dex">
+                
+                
+
+                <div class="Texto">
+                    <h3> Toxapex N.º748</h3>
+                    <img src="../images/pokedex/dex-2.png" alt="Toxapex"> 
+                </div>
+
+                <div class="Texto2">
+                    <p>Para resistir las bajas temperaturas de las aguas de Galar, forma una cúpula con
+                        las patas y calienta el interior con el calor de su cuerpo.
+                    </p>
+                </div>
+
+               
+            </div>
+    
+        </div>
+
+
+        <div class="Container-Foot">
+
+            <div class="Logo">
+                <img src="../images/backgrounds/pokelogo.png" alt="Logo">
+            </div>
+    
             <div class="Text">
                 <h2>Pokemon Company LTDA</h2>
-                <p>All rights reserved 2023</p>
-            </div>           
+                <p>Este es un diseño inspirado en los juegos de Nintendo y Pokemon Company</p>
+            </div>
+    
         </div>
-    </footer>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
     
-    
+
+    <script src="../js/efectos.js"></script>
 </body>
+
 </html>

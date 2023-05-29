@@ -1,0 +1,221 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* colocando la estructura de esta pagina */
+
+
+.GridContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "header     header     header"
+                         "Nav        Nav        Nav"
+                         "Intro      Intro      Intro"
+                         "Islands    Islands    Islands"
+                         "Footer     Footer     Footer";
+    gap:10px;
+}
+
+.Container-Header{
+    
+    grid-area: header;
+}
+
+
+.Container-Alola {
+    grid-area: Intro;
+   
+}
+
+
+
+.Container-islands {
+    grid-area: Islands;
+    
+
+}
+
+
+
+.Container-Menu {
+    grid-area: Nav;
+
+}
+
+.Container-Foot {
+    grid-area: Footer;
+}
+
+
+
+.GridContainer {
+    margin: auto;
+    width: 90%;
+    max-width: 1500px;
+}
+
+body {
+    font-family: 'Bebas Neue';
+    background: #000 url('../images/backgrounds/Alola_Background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* COLOCANDO EL HEADER Y EL NAVBAR */
+
+.Container-Header {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.Container-Header .Logo {
+    width: 60px;
+    height: 60px;
+}
+
+.Container-Header .Logo img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
+
+.Container-Header .Texto {
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Container-Menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+.boton {
+    color: #fff;
+    background: black;
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 25px;
+    padding: 7px 10px;
+    border-radius: 20px;
+
+}
+
+.boton:hover {
+    opacity: .8;
+}
+
+/* Colocando la isla principal*/
+
+.Container-Alola{
+
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, .7);
+}
+
+.Container-Alola {
+    width: 500px;
+    height: 500px;
+}
+
+.Container-Alola  img{
+    max-width: 100%;
+}
+
+.Container-Alola p {
+    padding: 20px;
+}
+
+
+.Container-islands{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    border-radius: 20px;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+    gap:20px
+}
+
+.islands{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background: rgba(255, 255, 255, .7);
+    border-radius: 20px;
+    text-align: center;
+
+}
+
+.islands img{
+    width: 500px;
+    height: 300px;
+}
+
+.islands p {
+    padding: 20px;
+}
+
+/* SIGUE LA PARTE DEL FOOTER */
+
+.Container-Foot{
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+.Container-Foot .Logo{
+    width: 50%;
+    height: 30%;
+}
+
+.Container-Foot .Logo img{
+    margin-left: auto;
+    max-width: 20%;
+    max-height: 20%;
+    display: block;
+
+}
+
+
+
+.Container-Foot .Text{
+    margin: auto;
+    width: 80%;
+    height: 20%;
+    color: white;
+
+}
+
