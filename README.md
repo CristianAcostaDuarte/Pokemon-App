@@ -9,6 +9,9 @@ The web page incorporates different routes, allowing users to navigate to specif
 ## Main page 💎
 This is the main page, at the bottom I included a small pokedex like feature the idea in the future is to use an API to fetch data from an online pokemon database and rotate the pokemon that appear there per day.
 
+<img src="https://github.com/CristianAcostaDuarte/Pokemon-App/blob/main/assets/Main.jpg" width="500" height="500" alt="main page">
+
+
 ## Characters page 🙌
 Here you will find information about the pokemons in your adventure and also some extra characters that will help you in your adventure.
 
