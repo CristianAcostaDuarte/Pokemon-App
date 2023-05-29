@@ -15,11 +15,19 @@ This is the main page, at the bottom I included a small pokedex like feature the
 ## Characters page 🙌
 Here you will find information about the pokemons in your adventure and also some extra characters that will help you in your adventure.
 
+<img src="https://github.com/CristianAcostaDuarte/Pokemon-App/blob/main/assets/Characters.jpg" width="800" height="500" alt="main page">
+
 ## Activities page ⛷️
 A description about the activities that can be done in Alola region.
 
+<img src="https://github.com/CristianAcostaDuarte/Pokemon-App/blob/main/assets/Activities.jpg" width="800" height="500" alt="main page">
+
+
 ## Map page 🖼️
 Here you can take a look to the Alola Region Islands.
+
+<img src="https://github.com/CristianAcostaDuarte/Pokemon-App/blob/main/assets/Islands.jpg" width="800" height="500" alt="main page">
+
 
 The project served as a passion project, allowing for hands-on experience in front-end development. By using HTML and CSS, the project enabled a deeper understanding of web design principles, layout, and styling techniques. Through the development process, valuable insights into front-end development practices were gained, contributing to a broader understanding of building user-friendly and visually appealing web pages.
 
